@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive config / credentials
+.env
+*.env
+config.local.py
+baidu_ocr_token.json
+*_token.json
+
+# Demo output (HTML reports can be regenerated)
+demo_data/*.html
+
+# Logs
+*.log
+logs/
